@@ -2145,7 +2145,7 @@ class PCMCI(PCMCIbase):
             'conservative' rules, see paper for details.
         """
 ##   Here
-        if selected_links is not None:
+
             raise ValueError("selected_links is DEPRECATED, use link_assumptions instead.")
 
         # Check if pc_alpha is chosen to optimze over a list
